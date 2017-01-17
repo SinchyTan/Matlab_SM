@@ -1,5 +1,5 @@
 function [ ] = TrajectoryDisp( filepath )
-%TRAJECTORYDISP 此处显示有关此函数的摘要
+%TRAJECTORYDISP 此函数用于打印由上位机测试平台输出文件中的加工轨迹
 %   此处显示详细说明
 data = importdata(filepath);
 [length,~] = size(data);
