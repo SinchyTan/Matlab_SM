@@ -1,6 +1,6 @@
 function [ ] = TrajectoryDisp( filepath )
 %TRAJECTORYDISP 此处显示有关此函数的摘要
-%   此处显示详细说明
+%filepath为文件地址
 data = importdata(filepath);
 [length,~] = size(data);
 figure(1);
